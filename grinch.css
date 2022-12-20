@@ -1,0 +1,61 @@
+:focus {
+  outline: thick dotted;
+  --tape-filter: hue-rotate(-18deg);
+}
+
+::selection {
+  background: #f60;
+  color: indigo;
+}
+
+.thrill {
+  --tape-remix: linear-gradient(
+      var(--tape-pink),
+      var(--tape-yellow)
+    );
+}
+
+:root {
+  --tape-filter: hue-rotate(0deg);
+  transition: 120ms ease-in-out;
+}
+
+:active {
+  --tape-filter: hue-rotate(-9deg);
+}
+
+.riot {
+  --tape-pink: #e1e;
+  --tape-yellow: #ee1;
+}
+
+html {
+  font-family: monospace;
+  font-size: max(20pt, 2vmax + 2vmin);
+}
+
+body {
+  margin: 1rem;
+  overflow-wrap: anywhere;
+}
+
+.free {
+  margin: auto;
+}
+
+.wing {
+  display: table;
+}
+
+.rosa {
+  font-size: 1.6em;
+}
+
+.soar {
+  font-size: 2.6em;
+}
+
+.dear {
+  margin: 0;
+  font: inherit;
+}
